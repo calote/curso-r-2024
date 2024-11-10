@@ -1,0 +1,18 @@
+---
+title: "Introducción a R"
+format:
+  html: default
+  gfm: default
+execute:
+  echo: true
+---
+
+## Vectorización en R
+
+```{r}
+# Ejemplo de vectorización vs bucles
+x <- 1:1000
+system.time(for(i in 1:length(x)) x[i]^2)
+system.time(x^2)
+```
+
