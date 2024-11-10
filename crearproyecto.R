@@ -1,3 +1,4 @@
+# https://github.com/calote/curso-r-2024/
 #usethis::create_project("curso-r-2024")
 usethis::use_git()
 usethis::use_github()
