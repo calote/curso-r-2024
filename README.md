@@ -150,3 +150,10 @@ quarto::quarto_render("docs/intro.qmd", output_format = "gfm")
     - Facilita la edición de tablas
     - Mejor manejo de imágenes
     - Formato WYSIWYG
+
+### Referencias
+
+- <a
+  href="http://destio.us.es/calvo/Qtutoriales/GitGithubRRStudio/trans_lab_PasosUsoInicialGitGithubRStudio.html#/title-slide"
+  target="_blank">Paso a paso: Uso Inicial de Git, GitHub con RStudio
+  (transparencias). Pedro Luque</a>
