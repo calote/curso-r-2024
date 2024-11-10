@@ -157,3 +157,6 @@ quarto::quarto_render("docs/intro.qmd", output_format = "gfm")
   href="http://destio.us.es/calvo/Qtutoriales/GitGithubRRStudio/trans_lab_PasosUsoInicialGitGithubRStudio.html#/title-slide"
   target="_blank">Paso a paso: Uso Inicial de Git, GitHub con RStudio
   (transparencias). Pedro Luque</a>
+
+- <a href="https://github.com/calote/curso-r-2024"
+  target="_blank">Repositorio en GitHub de ejemplo</a>

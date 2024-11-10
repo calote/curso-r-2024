@@ -5,12 +5,11 @@ format:
   html: default
 ---
 
-
 En RStudio hay varias formas sencillas de generar los archivos Markdown para GitHub:
 
 ### 1. Usando el botón Render en RStudio
 
-```yaml
+``` yaml
 ---
 title: "Mi Documento"
 format: 
@@ -19,13 +18,13 @@ format:
 ---
 ```
 
-1. Abrir el archivo .qmd
-2. Clic en botón "Render" (o Ctrl/Cmd + Shift + K)
-3. RStudio generará tanto el HTML como el MD
+1.  Abrir el archivo .qmd
+2.  Clic en botón "Render" (o Ctrl/Cmd + Shift + K)
+3.  RStudio generará tanto el HTML como el MD
 
 ### 2. Desde la consola de RStudio
 
-```r
+``` r
 # Para un solo archivo
 quarto::quarto_render("documento.qmd", output_format = "gfm")
 
@@ -36,7 +35,7 @@ lapply(archivos, quarto::quarto_render, output_format = "gfm")
 
 ### 3. Crear un script de renderizado
 
-```r
+``` r
 # archivo: render_docs.R
 render_docs <- function(dir = "docs") {
   # Listar todos los archivos .qmd
@@ -61,7 +60,7 @@ render_docs()
 
 ### 4. Crear un proyecto de RStudio con estructura
 
-```r
+``` r
 # Estructura recomendada para el proyecto
 mi_proyecto/
 ├── README.md
@@ -88,18 +87,18 @@ format:
 
 ### 5. Configuración Visual en RStudio
 
-1. Abrir el archivo .qmd
-2. En la barra superior del editor:
-   - Seleccionar "Visual" para edición visual
-   - Usar el menú de formato para:
-     - Añadir encabezados
-     - Insertar código
-     - Añadir tablas
-     - Insertar imágenes
+1.  Abrir el archivo .qmd
+2.  En la barra superior del editor:
+    -   Seleccionar "Visual" para edición visual
+    -   Usar el menú de formato para:
+        -   Añadir encabezados
+        -   Insertar código
+        -   Añadir tablas
+        -   Insertar imágenes
 
 ### 6. Ejemplo práctico completo
 
-`````r
+```` r
 # Crear nuevo proyecto con Git
 usethis::create_project("curso-r-2024")
 usethis::use_git()
@@ -135,33 +134,29 @@ quarto::quarto_render("docs/intro.qmd", output_format = "gfm")
 
 ## Commit y push
 ## Los archivos generados aparecerán en el panel Git de RStudio
-`````
-
+````
 
 ### Tips para el flujo de trabajo en RStudio:
 
-1. **Previsualización**:
-   - Split editor (Ctrl/Cmd + Alt + Shift + P)
-   - Ver resultado en tiempo real
+1.  **Previsualización**:
+    -   Split editor (Ctrl/Cmd + Alt + Shift + P)
+    -   Ver resultado en tiempo real
+2.  **Atajos de teclado útiles**:
+    -   Ctrl/Cmd + Alt + I: Insertar chunk de R
+    -   Ctrl/Cmd + Shift + K: Render
+    -   Ctrl/Cmd + S: Guardar
+3.  **Panel Git integrado**:
+    -   Stage cambios
+    -   Commit
+    -   Push
+4.  **Visual Editor**:
+    -   Facilita la edición de tablas
+    -   Mejor manejo de imágenes
+    -   Formato WYSIWYG
 
-2. **Atajos de teclado útiles**:
-   - Ctrl/Cmd + Alt + I: Insertar chunk de R
-   - Ctrl/Cmd + Shift + K: Render
-   - Ctrl/Cmd + S: Guardar
-
-3. **Panel Git integrado**:
-   - Stage cambios
-   - Commit
-   - Push
-
-4. **Visual Editor**:
-   - Facilita la edición de tablas
-   - Mejor manejo de imágenes
-   - Formato WYSIWYG
-   
-   
 ### Referencias
 
-- [Paso a paso: Uso Inicial de Git, GitHub con RStudio (transparencias). Pedro Luque](http://destio.us.es/calvo/Qtutoriales/GitGithubRRStudio/trans_lab_PasosUsoInicialGitGithubRStudio.html#/title-slide){target="_blank"}
+-   [Paso a paso: Uso Inicial de Git, GitHub con RStudio (transparencias). Pedro Luque](http://destio.us.es/calvo/Qtutoriales/GitGithubRRStudio/trans_lab_PasosUsoInicialGitGithubRStudio.html#/title-slide){target="_blank"}
 
+- [Repositorio en GitHub de ejemplo](https://github.com/calote/curso-r-2024){target="_blank"}
 
