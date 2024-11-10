@@ -110,8 +110,8 @@ writeLines(
 '---
 title: "Introducción a R"
 format:
-  html: default
   gfm: default
+  html: default
 execute:
   echo: true
 ---
