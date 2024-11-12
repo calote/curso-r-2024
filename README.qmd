@@ -160,3 +160,14 @@ quarto::quarto_render("docs/intro.qmd", output_format = "gfm")
 
 - [Repositorio en GitHub de ejemplo](https://github.com/calote/curso-r-2024){target="_blank"}
 
+- Otros ejemplos de repositorios:
+
+  + [MADOBIS24-01](https://github.com/BiostatOmics/HArats_multiomics/tree/main/Rscripts){target="_blank"}
+
+  + [MADOBIS24-02](https://github.com/Juande-cloud/TFM-Juan-de-Dios-Marin-Manzano){target="_blank"}
+
+  + [MADOBIS24-03](https://github.com/NicoLobato/Transcriptomics-data_Supervised-learning-models){target="_blank"}
+  
+  
+
+

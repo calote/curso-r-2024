@@ -160,3 +160,16 @@ quarto::quarto_render("docs/intro.qmd", output_format = "gfm")
 
 - <a href="https://github.com/calote/curso-r-2024"
   target="_blank">Repositorio en GitHub de ejemplo</a>
+
+- Otros ejemplos de repositorios:
+
+  - <a
+    href="https://github.com/BiostatOmics/HArats_multiomics/tree/main/Rscripts"
+    target="_blank">MADOBIS24-01</a>
+
+  - <a href="https://github.com/Juande-cloud/TFM-Juan-de-Dios-Marin-Manzano"
+    target="_blank">MADOBIS24-02</a>
+
+  - <a
+    href="https://github.com/NicoLobato/Transcriptomics-data_Supervised-learning-models"
+    target="_blank">MADOBIS24-03</a>
