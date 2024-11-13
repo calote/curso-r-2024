@@ -7,6 +7,8 @@ format:
 
 En RStudio hay varias formas sencillas de generar los archivos Markdown para GitHub:
 
+hola a todos
+
 ### 1. Usando el botón Render en RStudio
 
 ``` yaml
